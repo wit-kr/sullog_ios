@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		34587DC32856104600813A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34587DC22856104600813A3E /* AppDelegate.swift */; };
 		34587DC52856104600813A3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34587DC42856104600813A3E /* SceneDelegate.swift */; };
-		34587DC72856104600813A3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34587DC62856104600813A3E /* ViewController.swift */; };
+		34587DC72856104600813A3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34587DC62856104600813A3E /* ContentView.swift */; };
 		34587DCA2856104600813A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34587DC82856104600813A3E /* Main.storyboard */; };
 		34587DCC2856104700813A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34587DCB2856104700813A3E /* Assets.xcassets */; };
 		34587DCF2856104700813A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34587DCD2856104700813A3E /* LaunchScreen.storyboard */; };
+		34587DD92856131B00813A3E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34587DD82856131B00813A3E /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34587DBF2856104600813A3E /* Sullog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sullog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34587DC22856104600813A3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34587DC42856104600813A3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34587DC62856104600813A3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34587DC62856104600813A3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34587DC92856104600813A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34587DCB2856104700813A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34587DCE2856104700813A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34587DD02856104700813A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34587DD82856131B00813A3E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				34587DC22856104600813A3E /* AppDelegate.swift */,
 				34587DC42856104600813A3E /* SceneDelegate.swift */,
-				34587DC62856104600813A3E /* ViewController.swift */,
+				34587DC62856104600813A3E /* ContentView.swift */,
 				34587DC82856104600813A3E /* Main.storyboard */,
 				34587DCB2856104700813A3E /* Assets.xcassets */,
 				34587DCD2856104700813A3E /* LaunchScreen.storyboard */,
 				34587DD02856104700813A3E /* Info.plist */,
+				34587DD82856131B00813A3E /* WebView.swift */,
 			);
 			path = Sullog;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34587DC72856104600813A3E /* ViewController.swift in Sources */,
+				34587DC72856104600813A3E /* ContentView.swift in Sources */,
+				34587DD92856131B00813A3E /* WebView.swift in Sources */,
 				34587DC32856104600813A3E /* AppDelegate.swift in Sources */,
 				34587DC52856104600813A3E /* SceneDelegate.swift in Sources */,
 			);

@@ -6,11 +6,11 @@ struct WebView:UIViewRepresentable{
     
     // ui view 그리기
     func makeUIView(context: Context) -> WKWebView {
-        
         guard let url = URL(string:self.urlToLoad) else { return WKWebView() }
         
         let webview = WKWebView()
         
+        webview.scrollView.contentInsetAdjustmentBehavior = .never
         webview.load(URLRequest(url:url))
         
         return webview
@@ -24,7 +24,7 @@ struct WebView:UIViewRepresentable{
 
 struct WebView_Previews:PreviewProvider {
     static var previews: some View{
-        WebView(urlToLoad: "https://naver.com")
+        WebView(urlToLoad: "https://sullog-drinkers.vercel.app/")
     }
 }
 
